@@ -6,7 +6,7 @@ import {Card, Label, Divider, Form, Dimmer, Loader, Message} from 'semantic-ui-r
 import {v4 as uuid} from 'uuid';
 import * as mutations from '../graphql/mutations'
 import AWSConfig from '../aws-exports'
-import {Auth} from "aws-amplify";
+import { Auth } from '@aws-amplify/auth'
 import Storage from '@aws-amplify/storage'
 import API, {graphqlOperation} from "@aws-amplify/api";
 

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import API, { graphqlOperation } from '@aws-amplify/api'
-import { Auth } from 'aws-amplify';
+import { Auth } from '@aws-amplify/auth'
 
 import { Header, Input, List, Segment } from 'semantic-ui-react'
 import { NavLink } from 'react-router-dom';

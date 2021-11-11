@@ -5,7 +5,7 @@ import { Header, Form, Segment } from 'semantic-ui-react'
 
 import * as queries from '../graphql/queries'
 import * as subscriptions from '../graphql/subscriptions'
-import { Auth } from "aws-amplify";
+import { Auth } from '@aws-amplify/auth'
 import { PhotoList, S3ImageUpload } from "./PhotoList";
 
 export const AlbumDetails = (props) => {
