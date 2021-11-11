@@ -1,17 +1,17 @@
 {
-    "projectName": "photoshare",
-    "version": "3.0",
-    "frontend": "javascript",
-    "javascript": {
-        "framework": "react",
-        "config": {
-            "SourceDir": "src/react-frontend/src",
-            "DistributionDir": "src/react-frontend/build",
-            "BuildCommand": "npm run-script build",
-            "StartCommand": "npm run-script start"
-        }
-    },
-    "providers": [
-        "awscloudformation"
-    ]
+  "providers": [
+    "awscloudformation"
+  ],
+  "projectName": "photoshare",
+  "version": "3.1",
+  "frontend": "javascript",
+  "javascript": {
+    "framework": "react",
+    "config": {
+      "SourceDir": "src/react-frontend/src",
+      "DistributionDir": "src/react-frontend/build",
+      "BuildCommand": "npm run build --prefix src/react-frontend/",
+      "StartCommand": "npm run start --prefix src/react-frontend/"
+    }
+  }
 }
