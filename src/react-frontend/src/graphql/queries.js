@@ -10,27 +10,6 @@ export const checkSfnStatus = /* GraphQL */ `
     }
   }
 `;
-export const listAlbums = /* GraphQL */ `
-  query ListAlbums(
-    $filter: ModelAlbumFilterInput
-    $limit: Int
-    $nextToken: String
-  ) {
-    listAlbums(filter: $filter, limit: $limit, nextToken: $nextToken) {
-      items {
-        id
-        name
-        owner
-        createdAt
-        updatedAt
-        photos {
-          nextToken
-        }
-      }
-      nextToken
-    }
-  }
-`;
 export const getAlbum = /* GraphQL */ `
   query GetAlbum($id: ID!) {
     getAlbum(id: $id) {
@@ -57,6 +36,27 @@ export const getAlbum = /* GraphQL */ `
         }
         nextToken
       }
+    }
+  }
+`;
+export const listAlbums = /* GraphQL */ `
+  query ListAlbums(
+    $filter: ModelAlbumFilterInput
+    $limit: Int
+    $nextToken: String
+  ) {
+    listAlbums(filter: $filter, limit: $limit, nextToken: $nextToken) {
+      items {
+        id
+        name
+        owner
+        createdAt
+        updatedAt
+        photos {
+          nextToken
+        }
+      }
+      nextToken
     }
   }
 `;
