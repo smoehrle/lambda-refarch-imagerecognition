@@ -20,7 +20,6 @@ deploy: ##=> Deploy services
 	# cd lambda-functions/thumbnail && npm install && \
 	# cd ../extract-image-metadata && npm install && \
 	cd ../store-image-metadata && npm install && \
-
 	cd cloudformation/ && \
  	sam build --template ${TEMPLATE_NAME}.serverless.yaml  && \
 	sam package \
