@@ -17,9 +17,9 @@ init: ##=> Install OS deps and dev tools
 deploy: ##=> Deploy services
 	$(info [*] Deploying backend...)
 
-	# cd lambda-functions/thumbnail && npm install && \
-	# cd ../extract-image-metadata && npm install && \
-	cd lambda-functions/store-image-metadata && npm install && \
+	cd lambda-functions/thumbnail && npm ci && \
+	cd ../extract-image-metadata && npm ci && \
+	cd ../store-image-metadata && npm ci && \
 	cd ../../cloudformation/ && \
  	sam build --template ${TEMPLATE_NAME}.serverless.yaml  && \
 	sam package \
