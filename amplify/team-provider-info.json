@@ -18,7 +18,7 @@
       "function": {
         "S3Trigger984fb593": {
           "deploymentBucketName": "amplify-photoshare-dev-151620-deployment",
-          "s3Key": "amplify-builds/S3Trigger984fb593-70415a63426173683953-build.zip"
+          "s3Key": "amplify-builds/S3Trigger984fb593-6461364f594937456530-build.zip"
         }
       }
     }
