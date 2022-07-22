@@ -1,15 +1,15 @@
 {
   "dev": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-photoshare-dev-183232-authRole",
-      "UnauthRoleArn": "arn:aws:iam::321153312891:role/amplify-photoshare-dev-183232-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::321153312891:role/amplify-photoshare-dev-183232-authRole",
+      "AuthRoleName": "amplify-photoshare-dev-124315-authRole",
+      "UnauthRoleArn": "arn:aws:iam::321153312891:role/amplify-photoshare-dev-124315-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::321153312891:role/amplify-photoshare-dev-124315-authRole",
       "Region": "eu-central-1",
-      "DeploymentBucketName": "amplify-photoshare-dev-183232-deployment",
-      "UnauthRoleName": "amplify-photoshare-dev-183232-unauthRole",
-      "StackName": "amplify-photoshare-dev-183232",
-      "StackId": "arn:aws:cloudformation:eu-central-1:321153312891:stack/amplify-photoshare-dev-183232/b91f7020-0912-11ed-a73e-02f562dffcdc",
-      "AmplifyAppId": "d2rlph1lux7ixv"
+      "DeploymentBucketName": "amplify-photoshare-dev-124315-deployment",
+      "UnauthRoleName": "amplify-photoshare-dev-124315-unauthRole",
+      "StackName": "amplify-photoshare-dev-124315",
+      "StackId": "arn:aws:cloudformation:eu-central-1:321153312891:stack/amplify-photoshare-dev-124315/183b9910-09ab-11ed-a545-0a918974b996",
+      "AmplifyAppId": "d1kepn28rb6bee"
     },
     "categories": {
       "auth": {
@@ -17,7 +17,7 @@
       },
       "function": {
         "S3Trigger984fb593": {
-          "deploymentBucketName": "amplify-photoshare-dev-183232-deployment",
+          "deploymentBucketName": "amplify-photoshare-dev-124315-deployment",
           "s3Key": "amplify-builds/S3Trigger984fb593-6461364f594937456530-build.zip"
         }
       }
