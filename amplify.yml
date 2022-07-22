@@ -3,6 +3,8 @@ backend:
   phases:
     preBuild:
       commands:
+        - npm --version
+        - node --version
         - npm install -g @aws-amplify/cli@latest
         - make init # install OS packages  and dev tools (awscli, sam-cli, linters, etc.)
     build:
